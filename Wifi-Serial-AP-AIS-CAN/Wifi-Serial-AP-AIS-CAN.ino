@@ -79,7 +79,7 @@ int NodeAddress;  // To store last Node Address
 Preferences preferences;             // Nonvolatile storage on ESP32 - To store LastDeviceAddress
 
 int buzzerPin = 12;   // Buzzer on GPIO 12
-int buttonPin = 0;    // Button on GPIO 0 to acknowledge alarm with buzzer
+int buttonPin = 14;    // Button on GPIO 0 to acknowledge alarm with buzzer +++++++von 0 geändert auf 14 Hg+++++++++
 int alarmstate = false; // Alarm state (low voltage/temperature)
 int acknowledge = false; // Acknowledge for alarm, button pressed
 
